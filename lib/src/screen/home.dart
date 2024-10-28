@@ -1,3 +1,9 @@
+import 'package:election_app/src/widgets/home%20wigdets/gas_party.dart';
+import 'package:election_app/src/widgets/home%20wigdets/npp_party_widget.dart';
+import 'package:election_app/src/widgets/home%20wigdets/other_parties.dart';
+import 'package:election_app/src/widgets/home%20wigdets/sb_party_widget.dart';
+import 'package:election_app/src/widgets/home%20wigdets/sjb_party_widget.dart';
+import 'package:election_app/src/widgets/home%20wigdets/slpp_party_widget.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -24,8 +30,18 @@ class _HomeState extends State<Home> {
           ),
         ),
       ),
-      body: const Column(
-        children: [],
+      body: const Padding(
+        padding: EdgeInsets.all(8.0),
+        child: Column(
+          children: [
+            NPPPartyWidget(),
+            SjbPartyWidget(),
+            GasParty(),
+            SlppPartyWidget(),
+            SbPartyWidget(),
+            OtherParty(),
+          ],
+        ),
       ),
     );
   }

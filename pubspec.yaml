@@ -60,6 +60,7 @@ flutter:
 
   assets:
     - assets/font/
+    - assets/image/
 
   fonts:
     - family: SinhalaFont
