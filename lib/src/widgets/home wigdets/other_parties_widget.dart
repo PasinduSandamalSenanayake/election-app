@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class OtherParty extends StatefulWidget {
-  const OtherParty({super.key});
+class OtherPartyWidget extends StatefulWidget {
+  const OtherPartyWidget({super.key});
 
   @override
-  State<OtherParty> createState() => _OtherPartyState();
+  State<OtherPartyWidget> createState() => _OtherPartyWidgetState();
 }
 
-class _OtherPartyState extends State<OtherParty> {
+class _OtherPartyWidgetState extends State<OtherPartyWidget> {
   @override
   Widget build(BuildContext context) {
     return Padding(

@@ -1,6 +1,6 @@
-import 'package:election_app/src/widgets/home%20wigdets/gas_party.dart';
+import 'package:election_app/src/widgets/home%20wigdets/gas_party_widget.dart';
 import 'package:election_app/src/widgets/home%20wigdets/npp_party_widget.dart';
-import 'package:election_app/src/widgets/home%20wigdets/other_parties.dart';
+import 'package:election_app/src/widgets/home%20wigdets/other_parties_widget.dart';
 import 'package:election_app/src/widgets/home%20wigdets/sb_party_widget.dart';
 import 'package:election_app/src/widgets/home%20wigdets/sjb_party_widget.dart';
 import 'package:election_app/src/widgets/home%20wigdets/slpp_party_widget.dart';
@@ -36,10 +36,10 @@ class _HomeState extends State<Home> {
           children: [
             NPPPartyWidget(),
             SjbPartyWidget(),
-            GasParty(),
+            GasPartyWidget(),
             SlppPartyWidget(),
             SbPartyWidget(),
-            OtherParty(),
+            OtherPartyWidget(),
           ],
         ),
       ),
